@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('SCM') {
         steps {
-            git branch: 'main', url: 'https://github.com/coirne/PROJET_CI.git'
+            git branch: 'main', url: 'https://github.com/coirne/PROJET_CD.git'
+            sh 'ls'
               }
         }
         
